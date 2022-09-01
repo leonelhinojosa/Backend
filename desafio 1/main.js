@@ -1,4 +1,4 @@
-class Datos {
+/*class Datos {
     constructor(name, lastname, books, pets) {
       this.nombre = String(name);
       this.apellido = String(lastname);
@@ -25,24 +25,24 @@ class Datos {
     getBookNames() {
       return `Los nombres de libros son: ${this.libros.map((el) => el.nombre)} `;
     }
-  }
+  }/*/
   
   /* DEFINIMOS EL OPERADOR NEW CON SUS DATOS. */
-  const usuario = new Datos(
-    "Leonel",
-    "Hinojosa",
-    { nombre: "El quijote de la mancha", autor: "Miguel de Cervantes" },
-    ["pato", "gato"]
-  );
+  //const usuario = new Datos(
+   // "Leonel",
+    //"Hinojosa",
+    //{ nombre: "El quijote de la mancha", autor: "Miguel de Cervantes" },
+    //["pato", "gato"]
+  //);
   
   /* AREGAMOS MASCOTAS. */
-  usuario.addMascota("perro");
+  //usuario.addMascota("perro");
   
   /* AGREGAMOS NOMBRE DE LIBRO Y NOMBRE DE AUTOR. */
-  usuario.addBooks(" JavaScript: The Good Parts ", " Douglas Crockford");
+ // usuario.addBooks(" JavaScript: The Good Parts ", " Douglas Crockford");
   
   /* LLAMADA DE LOS METODOS POR CONSOLA */
-  console.log(usuario.countMascotas());
-  console.log(usuario.getBookNames());
-  console.log(usuario.getFullName());
-  console.log(usuario);
+  //console.log(usuario.countMascotas());
+  //console.log(usuario.getBookNames());
+  //console.log(usuario.getFullName());
+  //console.log(usuario);
