@@ -18,15 +18,9 @@
 		"id": 3
 	},
 	{
-		"nombre": "notebook",
+		"nombre": "coca",
 		"price": "200",
-		"thumbnail": "https://cdn1.iconfinder.com/data/icons/education-filled-outline-8/64/Education-Filled_36-256.png",
+		"thumbnail": "logo",
 		"id": 4
-	},
-	{
-		"nombre": "Lapiz",
-		"price": "50",
-		"thumbnail": "https://cdn1.iconfinder.com/data/icons/education-filled-outline-8/64/Education-Filled_25-256.png",
-		"id": 5
 	}
 ]
